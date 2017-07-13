@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <ul class="nav justify-content-end">
+    <li class="nav-item">
+      <a class="nav-link" href="https://mail.google.com/mail/?tab=wm&authuser=0">Gmail</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://www.google.com.br/imghp?hl=en&tab=wi&authuser=0&ei=J4tbWb-3LoGF-QGT37ygCA&ved=0EKouCBUoAQ">
+        Images</a>
+      </li>
+      <div class="g_app">
+        <li class="nav-item">
+          <a class="nav-link google-icons g-app" href="https://www.google.com.br/intl/en/options/" title="Google apps" aria-expanded="false" role="button" tabindex="0" dataved="0EL0nCAM">
+          </a>
+        </li>
+      </div>
+      <div class="bg-notif g_no">
+        <img src="google-notifications.png" alt="">
+      </div>
+      <li class="nav-link sign-in">
+        <img class="rounded-circle" src="https://lh3.googleusercontent.com/-Jc_xgVsz3N8/AAAAAAAAAAI/AAAAAAAAAAA/AI6yGXznv3cdgTCrKgfHKduYgSt-8Iumig/s32-c-mo/photo.jpg" alt="">
+      </li>
+    </ul>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-6 img-fluid mx-auto google-logo">
+          <img src="data:image/png;base64,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" alt="Google image">
+            <div class="logo-subtext">Brasil</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-group text-area">
+          <input class="form-control" type="text" aria-describedby="google-text-area">
+          <span class="input-group-addon microfone" id="google-text-area"></span>
+        </div>
+      </div>
+      <div class="row col-centered">
+        <div class="col-xs-6">
+          <div class="input-group">
+            <span class="input-group-btn">
+              <button class="btn btns" type="button">Google Search</button>
+            </span>
+          </div>
+        </div>
+        <div class="col-xs-6">
+          <div class="input-group">
+            <span class="input-group-btn">
+              <button class="btn btns" type="button">I'm Feeling Lucky</button>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer text-muted">
+      <div class="container-fluid bg-footer">
+        <div class="footer-info">
+            <span>
+              <a class="pull-left footer-info left" href="#">Advertising</a>
+            </span>
+            <span>
+              <a class="pull-left footer-info left" href="#">Business</a>
+            </span>
+            <span>
+              <a class="pull-left footer-info left" href="#">About</a>
+            </span>
+            <span class="footer-info">
+            </span>
+            <span>
+              <a class="pull-right footer-info right" href="#">Use Google.com</a>
+            </span>
+            <span>
+              <a class="pull-right footer-info" href="#">Settings</a>
+            </span>
+            <span>
+              <a class="pull-right footer-info" href="#">Terms</a>
+            </span>
+            <span>
+              <a class="pull-right footer-info" href="#">Privacy</a>
+            </span>
+          </div>
+      </div>
+    </footer>
+  </body>
